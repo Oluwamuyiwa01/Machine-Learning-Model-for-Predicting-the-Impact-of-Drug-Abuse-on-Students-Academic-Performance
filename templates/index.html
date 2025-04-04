@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drug Impact Prediction</title>
+  <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body>
+  <h2>Predict the Impact of Drug Abuse on Academic Performance</h2>
+  <div class="container">
+    <form id="predictionForm">
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required>
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="0">Male</option>
+        <option value="1">Female</option>
+      </select>
+
+      <label for="socioeconomic">Socioeconomic Status:</label>
+      <select id="socioeconomic" name="socioeconomic" required>
+        <option value="0">Low</option>
+        <option value="1">Middle</option>
+        <option value="2">High</option>
+      </select>
+
+      <label for="drug_type">Drug Type:</label>
+      <select id="drug_type" name="drug_type" required>
+        <option value="0">None</option>
+        <option value="1">Alcohol</option>
+        <option value="2">Marijuana</option>
+        <option value="3">Cocaine</option>
+        <option value="4">Tobacco</option>
+        <option value="5">Heroin</option>
+        <option value="6">Others</option>
+      </select>
+
+      <label for="age_first_used">Age First Used:</label>
+      <input type="number" id="age_first_used" name="age_first_used" required>
+
+      <label for="drug_frequency">Drug Frequency:</label>
+      <select id="drug_frequency" name="drug_frequency" required>
+        <option value="0">Never</option>
+        <option value="1">Occasionally</option>
+        <option value="2">Monthly</option>
+        <option value="3">Weekly</option>
+        <option value="4">Daily</option>
+      </select>
+
+      <label for="reason_for_use">Reason for Drug Use:</label>
+      <select id="reason_for_use" name="reason_for_use" required>
+        <option value="0">None</option>
+        <option value="1">Peer Pressure</option>
+        <option value="2">Stress</option>
+        <option value="3">Family Influence</option>
+      </select>
+
+      <label for="family_support">Family Support:</label>
+      <select id="family_support" name="family_support" required>
+        <option value="0">Low</option>
+        <option value="1">Moderate</option>
+        <option value="2">High</option>
+      </select>
+
+      <label for="attendance">Attendance (%):</label>
+      <input type="number" id="attendance" name="attendance" step="0.1" required>
+
+      <label for="gpa">GPA:</label>
+      <input type="number" id="gpa" name="gpa" step="0.1" required>
+
+      <button type="submit">Predict Impact</button>
+    </form>
+
+    <h3>Prediction Result: <span id="result"></span></h3>
+  </div>
+
+  <script src="../static/script.js"></script>
+</body>
+
+</html>
