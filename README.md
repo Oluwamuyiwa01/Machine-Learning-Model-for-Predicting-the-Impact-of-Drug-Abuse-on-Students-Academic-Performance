@@ -23,3 +23,7 @@ Performance evaluation showed that the Random Forest model was the most suitable
 
 <img width="456" height="356" alt="image" src="https://github.com/user-attachments/assets/296c62f6-9544-4b20-95bf-81d8b301babc" />  
 
+## Presentation of Results.  
+
+<img width="636" height="638" alt="image" src="https://github.com/user-attachments/assets/bc6ee007-5fd3-4a50-ae35-67b81fa07312" />
+
