@@ -1,19 +1,11 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
 
 from flask import Flask, render_template, request, jsonify
 import numpy as np
 import joblib
 
 app = Flask(__name__)
-
-# Load the trained model
 model = joblib.load("Model/random_forest.pkl")
 
-# Mapping for predictions
 impact_mapping = {0: "No Impact", 1: "Low Impact", 2: "Moderate Impact", 3: "High Impact"}
 
 @app.route('/')
@@ -23,10 +15,9 @@ def home():
 @app.route('/predict', methods=['POST'])
 def predict():
     try:
-        # Get JSON data from request
         data = request.get_json()
 
-        # Convert input to numpy array
+        
         input_data = np.array([[
             int(data['age']),
             int(data['gender']),
@@ -40,7 +31,7 @@ def predict():
             float(data['gpa'])
         ]])
 
-        # Make prediction
+     
         prediction = model.predict(input_data)[0]
         predicted_impact = impact_mapping.get(prediction, "Unknown")
 
