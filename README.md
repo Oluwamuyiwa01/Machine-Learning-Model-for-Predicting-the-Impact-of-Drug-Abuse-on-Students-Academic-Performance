@@ -16,7 +16,7 @@ Next, I developed the backend using Flask to manage API endpoints, handle user i
 
 ## Model Performance Evaluation.  
 
-To determine the most effective algorithm for predicting the impact of drug abuse on academic performance, multiple machine learning models were evaluated. The Random Forest classifier outperformed all other models, achieving 100% accuracy, making it the most suitable for this task. It was followed by Logistic Regression, which achieved 92% accuracy. In comparison, Support Vector Machine (SVM) and K-Nearest Neighbors (KNN) recorded lower accuracies of 80% and 76%, respectively. The Linear Regression model, being regression-based, was found unsuitable for this classification problem and was not considered further for deployment.  
+To determine the most effective algorithm for predicting the impact of drug abuse on academic performance, I evaluated multiple machine learning models. The Random Forest classifier outperformed all other models, achieving 100% accuracy, making it the most suitable for this task. It was followed by Logistic Regression, which achieved 92% accuracy. In comparison, Support Vector Machine (SVM) and K-Nearest Neighbors (KNN) recorded lower accuracies of 80% and 76%, respectively. The Linear Regression model, being regression-based, was found unsuitable for this classification problem and was not considered further for deployment.  
 
 <img width="456" height="356" alt="image" src="https://github.com/user-attachments/assets/296c62f6-9544-4b20-95bf-81d8b301babc" />  
 
