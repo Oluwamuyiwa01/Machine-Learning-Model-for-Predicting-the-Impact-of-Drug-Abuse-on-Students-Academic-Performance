@@ -24,4 +24,9 @@ To determine the most effective algorithm for predicting the impact of drug abus
 
 <img width="636" height="638" alt="image" src="https://github.com/user-attachments/assets/bc6ee007-5fd3-4a50-ae35-67b81fa07312" />  
 
+## Contribution
+In this research, I introduced a machine learning-based predictive system that helps identify students at risk of academic decline due to drug abuse. By analyzing various factors such as drug frequency, socioeconomic status, and family support, the model offers a comprehensive and automated way to assess the impact of substance use on academic performance. It enables early intervention by educators, counselors, and policymakers.
+
+The project also contributes a structured dataset derived from primary data (collected via Google Forms), enhancing the reliability of the analysis. Furthermore, the implementation as a web-based application using Flask, HTML, CSS, and JavaScript ensures usability and accessibility for educational institutions. This work supports further research in behavioral analytics, rehabilitation strategies, and predictive academic monitoring, offering practical insights for evidence-based decision-making.
+
 
