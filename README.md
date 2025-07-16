@@ -1,7 +1,9 @@
 # Machine-Learning-Model-for-Predicting-the-Impact-of-Drug-Abuse-on-Students'-Academic-Performance
 A machine learning web app that predicts the impact of drug abuse on students' academic performance. I built it using Flask, HTML, CSS, and JavaScript, using a Random Forest model for accurate predictions.
 ## Overview.  
-This project presents a machine learning-based predictive system designed to assess the impact of drug abuse on students’ academic performance. By analyzing a structured dataset comprising academic records (e.g., GPA, attendance), behavioral data, and substance use patterns, the model identifies at-risk students and predicts academic outcomes. It considers key factors such as alcohol and drug use, peer influence, family support, socioeconomic status, and reasons for substance use. The goal is to provide early warning insights for educators, counselors, and policymakers to support timely interventions and promote academic success.  
+This project presents a machine learning-based predictive system designed to assess the impact of drug abuse on students’ academic performance. By analyzing a structured dataset containing academic records (e.g., GPA, attendance), behavioral data, and substance use patterns, the model identifies at-risk students and predicts academic outcomes.  
+It considers key factors such as alcohol and drug use, peer influence, family support, socioeconomic status, and reasons for substance use. The goal is to provide early warning insights for educators, counselors, and policymakers to enable timely interventions and promote academic success.  
+
 # Data Visualization.  
 
 <img width="805" height="432" alt="image" src="https://github.com/user-attachments/assets/9e70731c-5124-48bb-8fda-b2d7b3ab8a7f" />   
