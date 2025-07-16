@@ -29,4 +29,9 @@ In this research, I introduced a machine learning-based predictive system that h
 
 ## Future Research
 Future studies can explore advanced models like deep learning and ensemble learning to enhance the model’s robustness and interpretability. Expanding the dataset to include students from diverse backgrounds and institutions will improve generalizability. Integrating additional factors such as mental health, social influence, and extracurricular activities can provide deeper insights.
+## How to Run the Flask App.
 
+- Clone the Repository.
+- Install dependencies. Make sure you have Python installed (Python 3.7+ is recommended), then install all required packages.
+- Run the Flask app using python app.py in your terminal.
+- Open a browser, and type this address http://127.0.0.1:5000/ to interact with the system.
