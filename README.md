@@ -8,6 +8,7 @@ It considers key factors such as alcohol and drug use, peer influence, family su
 
 <img width="805" height="432" alt="image" src="https://github.com/user-attachments/assets/9e70731c-5124-48bb-8fda-b2d7b3ab8a7f" />   
 
+
 - Students who use Alcohol, Marijuana, and Cocaine tend to have a higher impact on academics.  
 - Students who don’t use drugs ("None") have better academic performance.  
 
